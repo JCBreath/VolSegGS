@@ -1,6 +1,6 @@
 # VolSegGS: Segmentation and Tracking in Dynamic Volumetric Scenes via Deformable 3D Gaussians
 
-[Paper](https://arxiv.org/abs/2507.12667)
+[Paper](https://arxiv.org/abs/2507.12667) | [Demo](https://youtu.be/u1u8bLvSdzE)
 
 ![overview](assets/overview.png)
 
@@ -45,6 +45,8 @@ python train.py -s data/vortex --expname "vortex" --configs arguments/dynerf/dne
 ```shell
 python gui.py --model_path output/vortex/
 ```
+
+For instructions, please watch this [demo](https://youtu.be/u1u8bLvSdzE).
 
 ## Citation
 
