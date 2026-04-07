@@ -31,3 +31,18 @@ python -m pip install opencv-python dearpygui
 python -m pip install lpips
 python -m pip install mmcv
 ```
+
+### Train
+
+```shell
+python train.py -s data/vortex --expname "vortex" --configs arguments/dynerf/dnerf_default_visnerf.py
+```
+
+### View with GUI
+
+```shell
+python gui.py --model_path output/vortex/
+```
+
+
+
