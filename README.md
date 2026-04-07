@@ -2,6 +2,8 @@
 
 [Paper](https://arxiv.org/abs/2507.12667)
 
+![overview](assets/overview.png)
+
 This repository contains the official implementation associated with the paper "VolSegGS: Segmentation and Tracking in Dynamic Volumetric Scenes via Deformable 3D Gaussians".
 
 ## Run
@@ -38,11 +40,33 @@ python -m pip install mmcv
 python train.py -s data/vortex --expname "vortex" --configs arguments/dynerf/dnerf_default_visnerf.py
 ```
 
-### View with GUI
+### View & Segmentation with GUI
 
 ```shell
 python gui.py --model_path output/vortex/
 ```
+
+## Citation
+
+```
+@article{Yao-VolSegGS-VIS25,
+  author={Yao, Siyuan and Wang, Chaoli},
+  journal={ IEEE Transactions on Visualization \& Computer Graphics },
+  title={{ VolSegGS: Segmentation and Tracking in Dynamic Volumetric Scenes via Deformable 3D Gaussians }},
+  year={2026},
+  volume={32},
+  number={01},
+  ISSN={1941-0506},
+  pages={407-417},
+  doi={10.1109/TVCG.2025.3642516},
+  url = {https://doi.ieeecomputersociety.org/10.1109/TVCG.2025.3642516}
+}
+```
+
+## Acknowledgements
+
+This research was supported in part by the U.S. National Science Foundation through grants IIS-1955395, IIS-2101696, OAC-2104158, and IIS-2401144, and the U.S. Department of Energy through grant DE-SC0023145.
+
 
 
 
